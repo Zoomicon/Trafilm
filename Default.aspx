@@ -54,6 +54,7 @@
             </div>
         </div>  
       
+<%--   
         <div class="container">
             <div class="row-fluid">
             
@@ -62,14 +63,14 @@
                     <ZoneTemplate>
                         <MonoX:Editor runat="server" ID="editor09" Title='<%$ Code: PageResources.Title_MiddleSection %>' DefaultDocumentTitle='<%$ Code: PageResources.Title_MiddleSection %>'>
                             <DefaultContent>
-                                               
+                            &nbsp;                   
                             </DefaultContent>
                         </MonoX:Editor>
                     </ZoneTemplate>
                     </portal:PortalWebPartZoneTableless>             
                 </div>
-         
-                <%--         
+
+
                 <div class="span6 clearfix" style="position: relative;">
                     <portal:PortalWebPartZoneTableless ID="ForthRightPartZone" CssClass="activities-slideshow" runat="server" Width="100%" ChromeTemplateFile="Standard.htm" HeaderText='<%$ Code: PageResources.Zone_RightPartZone %>'>
                         <ZoneTemplate>
@@ -87,10 +88,11 @@
                     </portal:PortalWebPartZoneTableless>
             		    <p><a class="iframe" style="font-size: 18px; font-weight: 600; padding-top: 10px;" data-fancybox-type="iframe" href="https://docs.google.com/forms/d/1oqBPyNDwVBEK33MwmSeNXEiBthjG5UdYHwJLFTUphmo/viewform?embedded=true">Click here to tell us what you think about trafilm!</a></p>		    
                 </div>     
-                --%>
                 
             </div>
         </div>   
+--%>
+
         
         <div class="container">
             <div class="row-fluid">
