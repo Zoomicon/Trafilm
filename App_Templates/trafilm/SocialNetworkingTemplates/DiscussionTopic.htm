@@ -1,0 +1,91 @@
+﻿<div class="discussion-item <# PinItemClass #> <# PinItemBackgroundClass #>">
+    
+    <div class="jq_snNote <# UnapprovedClass #> <# SpamClass #> <# UnansweredClass #> <# AnsweredClass #>"> 
+        <!--TRAFILM-->
+        <div class="discussion-pins">
+            <div class="pin-image-inactive">
+                <div class="pin-image"></div>
+            </div>
+            #if( $AnsweringVisible )
+                <div class="icon" title="<# AnswerToolTip #>">
+                    <!--<# Answer #>-->
+                </div>
+            #end
+        </div>
+        <div class="discussion-content">
+            <h3><# Name #></h3>
+            <div class="date-author">
+                <# Date #> -
+                <a href="<# AuthorUrl #>" title="<# AuthorToolTip #>" class="author"><# AuthorText #></a>
+            </div>
+            #if( $LastPostVisible )
+            <div class="last">
+                <span><# LastPostText #></span>
+                <a href="<# LastPostUrl #>" title="<# LastPostToolTip #>">
+                    <# LastPostName #>
+                </a>
+                #if( $LastPostAuthorVisible )
+                <span><# LastPostAuthorText #></span>
+                <a href="<# LastPostAuthorUrl #>" title="<# LastPostAuthorToolTip #>">
+                    <# LastPostAuthorName #>
+                </a>
+                #end
+                / <# LastPostDate #>
+            </div>
+            #end
+            <div class="tags_cont">
+                #if( $TagsVisible )
+                <div class="tags">
+                   <# Tags #>
+                </div>
+                #end
+                <div class="options small-btn">
+                #if( $EditVisible )
+                <a title="<# Edit-ToolTip #>" href='<# Edit-URL #>' class="styled-button main-button edit-btn-b float-left">
+                    <# Edit-ToolTip #>
+                </a>
+                #end
+                #if( $DeleteVisible )
+                <a title="<# Delete-ToolTip #>" href='<# Delete-URL #>' class="styled-button delete-btn float-left" <# Delete-Attributes #>>
+                    <# Delete-ToolTip #>
+                </a>
+                #end
+                #if( $ApproveOptionsVisible )
+                <div class="styled-wrapper approve-btn-wrapper float-left"><# Approve #></div>
+                #end
+                #if( $SpamOptionsVisible )
+                <div class="styled-wrapper report-btn-wrapper float-left"><# ReportHam #></div>
+                <div class="styled-wrapper report-btn-wrapper float-left"><# ReportSpam #></div>
+                #end
+                #if( $PinItemVisible ) <div class="styled-wrapper pin-btn-wrapper float-left"><# TogglePinItem #></div> #end
+                #if( $TellAFriendVisible ) <span class="share"><# TellAFriend #></span> #end
+            </div>
+            </div>
+            <div class="info-box">
+                <div class="counter">                
+                    <a href="<# ReplyUrl #>" title="<# ReplyToolTip #>">
+                        <# ReplyCount #>
+                        <span><# ReplyText #></span>
+                    </a>
+                    <a href="<# ViewsUrl #>" title="<# ViewsToolTip #>">
+                        <# ViewsCount #>
+                        <span><# ViewsText #></span>
+                    </a>
+                    #if( $RatingVisible )
+                        <strong>
+                            <b><# RatingCount #></b>&nbsp;
+                            <span title="<# RatingToolTip #>"><# RatingText #></span>
+                        </strong>
+                    #end
+                    #if( $NoRatingVisible )
+                        <strong>
+                            0
+                            <span title="<# RatingToolTip #>"><# RatingText #></span>
+                        </strong>
+                    #end
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
