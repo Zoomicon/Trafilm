@@ -26,7 +26,7 @@ Inherits="MonoSoftware.MonoX.MasterPages.PageFooter" %>
                 <li><a href="http://trafilm.net/default.aspx"><%= PageResources.PageFooter_Home %></a></li>
                 <li><a href="http://trafilm.net/"><%= PageResources.PageFooter_About%>&nbsp;&rsaquo;</a></li>
 		    </ul>
-    	    <ul class="span3">
+    	    <ul class="span3" runat="server" Visible="<% $Code: Page.User.Identity.IsAuthenticated %>"> <%-- TODO: remove the runat="server" and the Visible clause if issue is fixed for these pages to work with non-signedin users --%>
         	    <li><h2><%= PageResources.PageFooter_SocialNetworking %></h2></li>
                 <li><a href='<% $Code: MonoSoftware.MonoX.Utilities.LocalizationUtility.RewriteLink("~/MonoX/Pages/SocialNetworking/Dashboard.aspx") %>' runat="server">Community</a></li>
                 <li><a href='<% $Code: MonoSoftware.MonoX.Utilities.LocalizationUtility.RewriteLink("~/Blog.aspx") %>' runat="server"><%= PageResources.PageFooter_SocialNetworkingBlog %></a></li>
