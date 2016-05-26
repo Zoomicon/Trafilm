@@ -1,2 +1,2 @@
 # Trafilm
-Trafilm's main website based on MonoX Social CMS platform
+Trafilm's main website (http://trafilm.net) based on MonoX Social CMS platform (http://monox.mono-software.com/)

@@ -1,0 +1,18 @@
+﻿<!--TRAFILM-->
+<div class="event-simple-content <# ItemCssClass #>">
+    <h2><# Title #></h2>
+    <div class="date"><# StartTime #> - <# EndTime #></div>
+    <p>
+        <strong><# PlaceLocalizedTitle #></strong>
+        <# Place #>
+    </p>
+    <p>
+        <strong><# DescriptionLocalizedTitle #></strong> <# Description #> 
+    </p>
+    #if( $Editable )
+    <div class="small-btn float-right"> 
+        <div class="styled-wrapper update-btn-wrapper float-left"><# UpdateAction #></div>
+        <div class="styled-wrapper delete-btn-wrapper float-left"><# DeleteAction #></div>
+    </div>
+    #end
+</div>
