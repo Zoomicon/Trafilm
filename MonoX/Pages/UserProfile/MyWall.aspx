@@ -17,7 +17,7 @@
 <%@ Register TagPrefix="MonoX" TagName="DiscussionMessages" Src="~/MonoX/ModuleGallery/SocialNetworking/Discussion/DiscussionMessages.ascx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cp" Runat="Server">
-    <div class="container-highlighter" style="background-color:#264d4d">
+    <div class="container-highlighter" style="background-color:#240000">
         <div class="container">
             <div class="row-fluid clearfix">
                 <div class="span12">  
