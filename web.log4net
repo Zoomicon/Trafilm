@@ -5,9 +5,9 @@
   </configSections>
   <log4net>
     <appender name="SmtpAppender" type="log4net.Appender.SmtpAppender">
-      <to value="trafilm@cti.gr" />
-      <from value="trafilm@cti.gr" />
-      <subject value="trafilm Social error occured!" />
+      <to value="clipflair@cti.gr" />
+      <from value="clipflair@cti.gr" />
+      <subject value="Trafilm error occured!" />
       <smtpHost value="mail.cti.gr" />
       <bufferSize value="256" />
       <lossy value="true" />
