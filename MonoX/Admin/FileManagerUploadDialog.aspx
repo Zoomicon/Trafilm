@@ -33,7 +33,7 @@
 <body style="padding:0px;">
     <form id="form1" runat="server">
     <div>
-        <mono:UploadModule ID="ctlUpload" runat="server" ShowUploadProgressBar="true" OverwriteExistingFiles="true"  />
+        <mono:UploadModule ID="ctlUpload" width="300" runat="server" ShowUploadProgressBar="true" OverwriteExistingFiles="true"  />
         <br />
         <asp:Label ID="lblInjectScript" Runat="server"></asp:Label>  
         <div style="text-align:center; margin-left:auto; margin-right:auto; width:100%">

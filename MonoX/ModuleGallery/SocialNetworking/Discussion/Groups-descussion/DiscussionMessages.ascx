@@ -114,7 +114,7 @@
                     <table cellpadding="0" cellspacing="0" width="100%" class="snNoteTable">
                         <tr class="snUploadRow float-left">
                             <td>
-                                <MonoX:SilverlightUpload runat="server" ID="ctlUpload" EnableFileGallery="false" />
+                                <MonoX:SilverlightUpload runat="server" ID="ctlUpload" width="300" EnableFileGallery="false" />
                                 <MonoX:FileGallery CssClass="attached-files file-gallery" ID="ctlFileGallery" runat="server" EnableFileEdit="false" UsePrettyPhoto="true"  />
                             </td>
                         </tr>

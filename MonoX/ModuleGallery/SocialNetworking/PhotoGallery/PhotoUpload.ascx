@@ -15,7 +15,7 @@
         </div>
     </div>
     <div class="photo-gallery">        
-        <MonoX:SilverlightUpload runat="server" ID="ctlUpload" UploadVisibleOnInit="true" />
+        <MonoX:SilverlightUpload runat="server" ID="ctlUpload" width="300" UploadVisibleOnInit="true" />
     </div>
 </div>
 

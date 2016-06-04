@@ -57,8 +57,8 @@
                 </dd>
                 <asp:Panel runat="server" ID="pnlUpload" Style="border: none;">
                     <dd>
-                        <asp:Label ID="lblUpload" AssociatedControlID="ctlUpload" runat="server"></asp:Label>
-                        <MonoX:SilverlightUpload runat="server" ID="ctlUpload" Width="100%" EnableFileGallery="false" />
+                        <asp:Label ID="lblUpload" AssociatedControlID="ctlUpload" width="300" runat="server"></asp:Label>
+                        <MonoX:SilverlightUpload runat="server" ID="ctlUpload" width="300" EnableFileGallery="false" />
                         <br />
                     </dd>
                     <dd>

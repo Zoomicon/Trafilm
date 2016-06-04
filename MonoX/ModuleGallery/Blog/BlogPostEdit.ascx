@@ -82,8 +82,8 @@
                 <asp:CheckBox BorderStyle="None" BorderWidth="0px" ID="chkIsCommentAllowed" runat="server" TextAlign="Right"></asp:CheckBox>
             </dd>
             <dd>
-                <asp:Label ID="lblAttachments" AssociatedControlID="ctlUpload" runat="server"></asp:Label>
-                <MonoX:SilverlightUpload runat="server" ID="ctlUpload" EnableFileGallery="false" CssClass="blog-file-upload" />
+                <asp:Label ID="lblAttachments" AssociatedControlID="ctlUpload" width="300" runat="server"></asp:Label>
+                <MonoX:SilverlightUpload runat="server" ID="ctlUpload" width="300" EnableFileGallery="false" CssClass="blog-file-upload" />
             </dd>
             <dd>
                 <MonoX:FileGallery ID="ctlFileGallery" runat="server" ParentEntityType="BlogPost" />
