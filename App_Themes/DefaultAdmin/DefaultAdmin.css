@@ -11,6 +11,7 @@ body, form {
 	margin-bottom: 0px;
 	font: 11px Verdana, MS Sans Serif, Arial;
 }
+
 .masterDiv
 {
 	background-image: url(img/bg.jpg);
@@ -134,6 +135,7 @@ body, form {
 	padding: 2px 0px 0px 35px;
 	margin-left: 20px;
 }
+
 .navigation 
 {
 	clear: both;	
@@ -145,12 +147,15 @@ body, form {
 	/* font-variant: small-caps; */
 	position: relative;
 	z-index: 1000;
+        background-color: #DA3402;  
 }
+
 .navigation UL
 {	
 	display: block;
 	list-style-type: none;
 }
+
 .navigation UL LI{
 	display: block;
 	background-image: url(img/nav_separator.gif);
@@ -159,6 +164,7 @@ body, form {
 	position: relative;
 	float: left;
 }
+
 .navigation UL LI A{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
@@ -169,6 +175,7 @@ body, form {
 	padding-bottom: 10px;
 	display: block;	
 }
+
 .navigation LI A:HOVER{
 	color: #FCB525;
 	background-image: url(img/hover_arrow.gif);
@@ -180,10 +187,12 @@ body, form {
 	padding-bottom: 10px;
 	padding-left: 12px;	
 }
+
 .navigation ul li ul 
 {
 	display: none
 }
+
 .navigation ul li:hover ul 
 {
 	display: block;
@@ -193,6 +202,7 @@ body, form {
 	border-top: solid 1px transparent;
 	padding-bottom: 0px;
 }
+
 .navigation ul li:hover ul li a 
 {
 	display:block;	
@@ -205,10 +215,12 @@ body, form {
 	padding-bottom: 5px;
 	margin-bottom: 1px;
 }
+
 .navigation ul li:hover ul li a:hover 
 {	
 	color: #FCB525;
 }
+
 .nav_active {
 	color: #D6AB42;
 	background-image: url(img/hover_arrow.gif);
@@ -221,6 +233,7 @@ body, form {
 	padding-left: 10px;
 	font-family: Arial, Helvetica, sans-serif;
 }
+
 .contentt {
 	float: left;
 	width: 999px;
@@ -272,6 +285,7 @@ body, form {
 	
 	
 }
+
 .sub_nav LI A:HOVER{
 	color: #FAB52A;
 		
@@ -283,6 +297,7 @@ body, form {
 	width: 777px;
 	padding-top: 20px;
 }
+
 .box_files {
 	float: left;
 	width: 198px;
@@ -331,6 +346,7 @@ body, form {
 	margin-right: 10px;
 	margin-bottom: 30px;
 }
+
 .box_users {
 	float: left;
 	width: 189px;
@@ -345,6 +361,7 @@ body, form {
 	font-weight: normal;
 	margin-bottom: 30px;
 }
+
 .box_roles {
 	float: left;
 	width: 198px;
@@ -360,6 +377,7 @@ body, form {
 	margin-right: 10px;
 	margin-bottom: 30px;
 }
+
 .box_news {
 	float: left;
 	width: 208px;
@@ -407,6 +425,7 @@ body, form {
 	font-weight: normal;
 	margin-bottom: 30px;
 }
+
 .box_pools {
 
 	float: left;
@@ -423,6 +442,7 @@ body, form {
 	margin-right: 10px;
 	margin-bottom: 30px;
 }
+
 .box_lists {
 
 	float: left;
@@ -439,6 +459,7 @@ body, form {
 	margin-right: 10px;
 	margin-bottom: 30px;
 }
+
 .box_newsletter {
 
 	float: left;
@@ -454,6 +475,7 @@ body, form {
 	font-weight: normal;
 	margin-bottom: 30px;
 }
+
 .box_groups {
 	float: left;
 	width: 189px;
