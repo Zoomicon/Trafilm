@@ -18,7 +18,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cp" Runat="Server">
 
-    <div class="container-highlighter" style="background-color:#417a77">
+    <div class="container-highlighter" style="background-color:#240000">
         <div class="container">
             <div class="row-fluid clearfix">
                 <div class="span12">

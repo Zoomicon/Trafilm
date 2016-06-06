@@ -11,7 +11,7 @@
 <%@ Register Assembly="MonoX" Namespace="MonoSoftware.MonoX" TagPrefix="portal" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cp" runat="server">
-    <div class="container-highlighter" style="background-color:#248b9a">
+    <div class="container-highlighter" style="background-color:#240000">
         <div class="container">
             <div class="row-fluid clearfix">
                 <div class="span12">

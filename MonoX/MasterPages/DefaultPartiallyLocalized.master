@@ -173,7 +173,7 @@
     <a href="#" class="downarrow" title='Scroll down'>Scroll</a>
 
     <!--comments here-->
-    <div class="language-notification container-highlighter" style="background-color:#e0e0e0">
+    <div class="language-notification container-highlighter" style="background-color:#240000">
         <div class="container">
                 <script>
                    if (document.location.href.search("/lng/en-US") == -1) {

@@ -28,10 +28,12 @@
                         <!--<div class="or-use">
                             <hr />
                         </div>-->
+                    <!--
                         <div class="user-account login-social" >
                             <MonoX:LoginSocial runat="server" ID="ctlLoginSocial" />
-                            <div class="italic-style"><!--<asp:Literal ID="Literal1" runat="server" Visible="<% $Code: MonoSoftware.MonoX.ApplicationSettings.EnableUserRegistration %>" Text="<% $Code: PageResources.Login_RpxWarning %>"></asp:Literal>-->Do not use social login if you've already registered directly with trafilm Social: enter your User name and Password instead and click the Log in button</div>
+                            <div class="italic-style">--><!--<asp:Literal ID="Literal1" runat="server" Visible="<% $Code: MonoSoftware.MonoX.ApplicationSettings.EnableUserRegistration %>" Text="<% $Code: PageResources.Login_RpxWarning %>"></asp:Literal>--><!--Do not use social login if you've already registered directly with trafilm: enter your User name and Password instead and click the Log in button</div>
                         </div>
+                    -->
                         <div class="gotoLogin">
                             
                             <p>Already a user? Sign in <a href="../Login.aspx">here</a>.</p>

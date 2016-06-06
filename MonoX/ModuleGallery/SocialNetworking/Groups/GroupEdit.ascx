@@ -37,10 +37,10 @@
                 <!--/!!!TRAFILM-->
             </dd>
             <dd>
-                <asp:Label ID="lblPicture" AssociatedControlID="ctlUpload" runat="server"></asp:Label><br />
+                <asp:Label ID="lblPicture" AssociatedControlID="ctlUpload" width="300" runat="server"></asp:Label><br />
                 <asp:Image runat="server" ID="imgGroupLogo" CssClass="img" />
                 <!--!!!TRAFILM-->
-                <MonoX:Upload ControlObjectsVisibility="None" CssClass="upload-control" runat="server" ID="ctlUpload" />
+                <MonoX:Upload ControlObjectsVisibility="None" CssClass="upload-control" runat="server" ID="ctlUpload" width="300" />
                 <!--/!!!TRAFILM-->
             </dd>
             <dd class="my_checkbox">               

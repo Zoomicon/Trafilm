@@ -85,7 +85,7 @@
             </div>            
             <div class="RadUploadContainer RadUploadContainerPopup">
                 <asp:Label ID="lblUpload" runat="server" Text='<%$ Code: AdminResources.PageManagerPageTemplates_lblUpload %>'></asp:Label>
-                <mono:UploadModule ID="ctlUpload" runat="server" ShowUploadProgressBar="true" OverwriteExistingFiles="true" />
+                <mono:UploadModule ID="ctlUpload" width="300" runat="server" ShowUploadProgressBar="true" OverwriteExistingFiles="true" />
             </div>
         </div>
         </asp:Panel>
