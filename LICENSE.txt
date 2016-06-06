@@ -1,4 +1,4 @@
-(A) MonoX theme and custom pages for Trafilm Project are licensed with the following license:
+(A) MonoX CMS theme and custom pages for Trafilm Project are available with the following license:
 
 The MIT License (MIT)
 
@@ -24,7 +24,7 @@ SOFTWARE.
 
 ------------------
 
-(B) MonoX itself is free to use (not OpenSource), licensed with the following license:
+(B) MonoX CMS itself is free to use (but not OpenSource), available with the following license:
 
 
 License Agreement
