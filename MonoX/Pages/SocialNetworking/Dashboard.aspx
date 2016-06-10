@@ -28,7 +28,7 @@
                         <ZoneTemplate>
                             <MonoX:Editor runat="server" ID="editor01" Title='<%$ Code: PageResources.Title_TopSection %>' DefaultDocumentTitle='<%$ Code: PageResources.Title_TopSection %>'>
                                 <DefaultContent>
-                                    <p>Welcome to the trafilm Community</p>
+
                                 </DefaultContent>
                             </MonoX:Editor>
                         </ZoneTemplate>
@@ -37,6 +37,7 @@
             </div>
         </div>              
     </div>
+    
     <div class="container">
         <div class="row-fluid clearfix">
             <div class="span12">
@@ -52,6 +53,7 @@
             </div>
         </div>
     </div>
+    
     <div class="container">            
             <div class="row-fluid">
                 <div class="span8">
@@ -62,6 +64,7 @@
                     </ZoneTemplate>
                     </portal:PortalWebPartZoneTableless>
                 </div>
+                
                 <div class="span4">
                     <portal:PortalWebPartZoneTableless HeaderText='<%$ Code: PageResources.Zone_SocialZone %>' ID="connectPartZone" runat="server" Width="100%" ChromeTemplateFile="RightColumn.htm" ShowChromeForNonAdmins="true">
                     <ZoneTemplate>
@@ -73,7 +76,7 @@
                     </ZoneTemplate>
                     </portal:PortalWebPartZoneTableless>
                 </div>
-            </div>
-        
+            </div>    
     </div>
+    
 </asp:Content>

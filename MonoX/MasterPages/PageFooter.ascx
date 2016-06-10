@@ -48,15 +48,19 @@ Inherits="MonoSoftware.MonoX.MasterPages.PageFooter" %>
     <div class="copyright">
         <div class="container">
             <div class="row-fluid">
-                <a id="A1" runat="server" href="http://monox.mono-software.com" class="powered-by">
-                    <img runat="server" src="~/App_Themes/trafilm/img/PoweredBy/MonoXButton1.gif" alt="Powered by MonoX" />
-                </a>
                 <div class="logo-eu">
                     <img runat="server" src="~/App_Themes/trafilm/img/logo_3linies UVic_color_63px.jpg" alt="UVIC" class="footer-logo" />
+                    &nbsp;
                     <img runat="server" src="~/App_Themes/trafilm/img/Ministerio_de_Economia_y_Competitividad_JPEG_63px.jpg" alt="Spanish Ministry of Economy and Competitiveness" class="footer-logo" />
-                    <p>The project TRAFILM (FFI2014-55952-P) is funded by the Spanish Ministry of Economy and Competitiveness. This publication reflects the views only of its authors.</p>
+                    &nbsp;
+                    <p style="text-align:right">The project TRAFILM (FFI2014-55952-P) is funded by the Spanish Ministry of Economy and Competitiveness. This publication reflects the views only of its authors.</p>
                 </div>
-                
+                <p style="color:white">
+                Developed by: <a href="http://Zoomicon.com" target="Zoomicon" style="color:grey">Zoomicon</a>
+                <a id="A1" runat="server" href="http://monox.mono-software.com" class="powered-by">
+                  <img runat="server" src="~/App_Themes/trafilm/img/PoweredBy/MonoXButton1.gif" alt="Powered by MonoX" />
+                </a>
+                </p>          
             </div>
         </div>
     </div>
