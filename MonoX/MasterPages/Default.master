@@ -131,18 +131,6 @@
         });
     </script>
     
-    <!-- TRANSIFEX -->
-    <script type="text/javascript">
-      window.liveSettings = {
-        api_key: "TODO",
-        picker: "top-right",
-        detectlang: true,
-        autocollect: true
-      };
-    </script>
-    <script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
-
-<%--
     <div class="container-languages" style="background-color:#e0e0e0;">
         <div class="container ">
             <div class="row-fluid">
@@ -152,7 +140,6 @@
             </div>
         </div>
     </div>
---%>
     
     <header>        
         <div class="container">
