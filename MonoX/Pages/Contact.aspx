@@ -13,6 +13,15 @@
 <%@ Register TagPrefix="MonoX" TagName="ContactForm" Src="~/MonoX/ModuleGallery/ContactFormModule.ascx" %>
 <%@ Register Assembly="MonoX" Namespace="MonoSoftware.MonoX" TagPrefix="portal" %>
 
+<script language="C#" runat="server">  
+  private void ContactForm_BeforeSendMail(System.Net.Mail.MailMessage mailMessage, System.ComponentModel.CancelEventArgs e)
+  {
+    mailMessage.IsBodyHtml = true;
+    mailMessage.Body = "From: " + mailMessage.From.DisplayName + " (" +  mailMessage.From.Address + ")<br /><br />" + mailMessage.Body.Replace("\n", "<br />"); 
+    mailMessage.From = new System.Net.Mail.MailAddress("Trafilm <TrafilmProject@gmail.com>");
+  }
+</script>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="cp" runat="server">
     <div class="container-highlighter" style="background-color:#240000">
         <div class="container">
@@ -44,7 +53,8 @@
                       A_Phone=""
                       A_Fax=""
                       EnableSSL="false"
-                      A_EMail="TrafilmProject@gmail.com"           
+                      A_EMail="TrafilmProject@gmail.com"
+                      OnBeforeSendMail="ContactForm_BeforeSendMail"                      
                     />
                 </ZoneTemplate>
             </portal:PortalWebPartZoneTableless>

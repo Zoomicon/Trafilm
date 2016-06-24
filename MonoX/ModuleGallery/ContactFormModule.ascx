@@ -12,8 +12,11 @@
         <h1><asp:Literal ID="lblTitle" runat="server"></asp:Literal></h1> 
         <dl>
             <dd>
-                <asp:ValidationSummary ID="summary" runat="server" DisplayMode="List" ValidationGroup="Modification" CssClass="validation-summary" ShowSummary="true" EnableClientScript="true" />
+                <strong><asp:Label ID="lblInfo" runat="server" ></asp:Label></strong>
             </dd>
+            <dd>
+                <asp:ValidationSummary ID="summary" runat="server" DisplayMode="List" ValidationGroup="Modification" CssClass="validation-summary" ShowSummary="true" EnableClientScript="true" />
+            </dd>            
             <dd>
                 <asp:Label ID="lblName" AssociatedControlID="txtName" runat="server" CssClass="label-width"></asp:Label>
                 <asp:TextBox ID="txtName" runat="server" class="short-textbox"></asp:TextBox>
@@ -40,9 +43,6 @@
                 <monox:CaptchaModule ID="captchaModule" runat="server" />
             </dd>
             <dd>
-                <strong><asp:Label ID="lblInfo" runat="server" ></asp:Label></strong>
-            </dd>
-            <dd>
                 <!--TRAFILM-->
                 <asp:LinkButton ID="btnSend" runat="server" CausesValidation="true" OnClick="btnSend_Click" CssClass="styled-button main-button send-btn float-left" />
             </dd>
@@ -53,6 +53,7 @@
             <div class="inner">
                 <div class="header-title"><%# DefaultResources.ContactForm_ContactInfoTitle %></div>
                 <div class="contact-info-line"><asp:PlaceHolder ID="panWebSiteName" runat="server"><strong><%# A_WebSiteName%></strong><span></span></asp:PlaceHolder></div>
+           <%-- <div class="contact-info-line"><asp:PlaceHolder ID="panEMail" runat="server"><strong><%# A_EMail%></strong><span></span></asp:PlaceHolder></div> --%>
                 <div class="contact-info-line"><asp:PlaceHolder ID="panPhone" runat="server"><strong><%# DefaultResources.ContactForm_PhoneLabel %></strong><span><%# A_Phone%></span></asp:PlaceHolder></div>
                 <div class="contact-info-line"><asp:PlaceHolder ID="panFax" runat="server"><strong><%# DefaultResources.ContactForm_FaxLabel %></strong><span><%# A_Fax%></span></asp:PlaceHolder></div>
                 <div class="contact-info-line"><asp:PlaceHolder ID="panAddress" runat="server"><strong><%# DefaultResources.ContactForm_AddressLabel %></strong><span><%# A_Address%></span></asp:PlaceHolder>
