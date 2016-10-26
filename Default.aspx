@@ -57,7 +57,7 @@
         <div class="container">
             <div class="row-fluid">
             
-                <div class="span6 clearfix">
+                <div class="span12 clearfix">
                     <portal:PortalWebPartZoneTableless ID="SecondLeftPartZone" runat="server" Width="100%" ChromeTemplateFile="Standard.htm" HeaderText='<%$ Code: PageResources.Zone_LeftPartZone %>'>
                     <ZoneTemplate>
                         <MonoX:Editor runat="server" ID="editor09" Title='<%$ Code: PageResources.Title_MiddleSection %>' DefaultDocumentTitle='<%$ Code: PageResources.Title_MiddleSection %>'>
