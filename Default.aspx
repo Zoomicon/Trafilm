@@ -41,6 +41,22 @@
         <div class="container">
             <div class="row-fluid">
                 <div class="span12 clearfix">
+                    <portal:PortalWebPartZoneTableless CssClass="margin-top-40" ID="BannerZone" runat="server" Width="100%" ChromeTemplateFile="Standard.htm" HeaderText='<%$ Code: PageResources.Zone_LeftPartZone %>'>
+                        <ZoneTemplate>
+                            <MonoX:Editor runat="server" ID="editorBanner" Title='<%$ Code: PageResources.Title_TopSection %>' DefaultDocumentTitle='<%$ Code: PageResources.Title_TopSection %>'>
+                                <DefaultContent>
+                                
+                                </DefaultContent>
+                            </MonoX:Editor>
+                        </ZoneTemplate>
+                    </portal:PortalWebPartZoneTableless>     
+                </div>
+            </div>
+        </div>          
+        
+        <div class="container">
+            <div class="row-fluid">
+                <div class="span12 clearfix">
                     <portal:PortalWebPartZoneTableless CssClass="margin-top-40" ID="ForthLeftPartZone" runat="server" Width="100%" ChromeTemplateFile="Standard.htm" HeaderText='<%$ Code: PageResources.Zone_LeftPartZone %>'>
                         <ZoneTemplate>
                             <MonoX:Editor runat="server" ID="editor02" Title='<%$ Code: PageResources.Title_TopSection %>' DefaultDocumentTitle='<%$ Code: PageResources.Title_TopSection %>'>
@@ -53,6 +69,8 @@
                 </div>
             </div>
         </div>  
+        
+        <br />
       
         <div class="container">
             <div class="row-fluid">
@@ -106,7 +124,7 @@
                 <div class="span4">
                     <portal:PortalWebPartZoneTableless ID="colLeft" runat="server" Width="100%" ChromeTemplateFile="Standard.htm" HeaderText="Col-leftZone">
                     <ZoneTemplate>
-                        <MonoX:Editor runat="server" ID="editor05" Title='<%$ Code: PageResources.Title_TopSection %>' DefaultDocumentTitle='<%$ Code: PageResources.Title_TopSection %>'>
+                        <MonoX:Editor runat="server" ID="editor05" Title='<%$ Code: PageResources.Title_BottomSection %>' DefaultDocumentTitle='<%$ Code: PageResources.Title_TopSection %>'>
                             <DefaultContent>
                                 
                             </DefaultContent>
@@ -118,7 +136,7 @@
                 <div class="span4">
                     <portal:PortalWebPartZoneTableless ID="colMiddle" runat="server" Width="100%" ChromeTemplateFile="Standard.htm" HeaderText="Col-middleZone">
                     <ZoneTemplate>
-                        <MonoX:Editor runat="server" ID="editor06" Title='<%$ Code: PageResources.Title_TopSection %>' DefaultDocumentTitle='<%$ Code: PageResources.Title_TopSection %>'>
+                        <MonoX:Editor runat="server" ID="editor06" Title='<%$ Code: PageResources.Title_BottomSection %>' DefaultDocumentTitle='<%$ Code: PageResources.Title_TopSection %>'>
                             <DefaultContent>
                                 
                             </DefaultContent>
@@ -130,7 +148,7 @@
                 <div class="span4" style="position: relative;">
                     <portal:PortalWebPartZoneTableless ID="colRight" runat="server" Width="100%" ChromeTemplateFile="Standard.htm" HeaderText="Col-rightZone">
                         <ZoneTemplate>
-                            <MonoX:Editor runat="server" ID="editor07" Title='<%$ Code: PageResources.Title_TopSection %>' DefaultDocumentTitle='<%$ Code: PageResources.Title_TopSection %>'>
+                            <MonoX:Editor runat="server" ID="editor07" Title='<%$ Code: PageResources.Title_BottomSection %>' DefaultDocumentTitle='<%$ Code: PageResources.Title_TopSection %>'>
                                 <DefaultContent>
                                 
                                 </DefaultContent>
