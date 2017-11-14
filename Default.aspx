@@ -16,8 +16,8 @@
 <%@ Register TagPrefix="MonoX" TagName="AdModule" Src="~/MonoX/ModuleGallery/AdModule.ascx"  %>
 <%@ Register TagPrefix="MonoX" TagName="SlideShow" Src="~/MonoX/ModuleGallery/SlideShow.ascx"  %>
 
-
 <%@ Import Namespace="MonoSoftware.MonoX.Resources" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="cp" runat="server">    
     
     <%-- HIGHLIGHT BANNER --%>
@@ -64,6 +64,11 @@
         <div class="span4">
           <portal:PortalWebPartZoneTableless ID="RssZone" runat="server" Width="100%" ChromeTemplateFile="Standard.htm" HeaderText="RSS" CSSclass="rss-scroll">
             <ZoneTemplate>
+              <MonoX:Editor runat="server" ID="editorRSS" Title='RSS' DefaultDocumentTitle=''>
+                <DefaultContent>
+                
+                </DefaultContent>
+              </MonoX:Editor>
             </ZoneTemplate>
           </portal:PortalWebPartZoneTableless>
         </div>
