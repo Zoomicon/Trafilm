@@ -36,10 +36,10 @@ Inherits="MonoSoftware.MonoX.MasterPages.PageFooter" %>
             <ul class="span3">
                 <li><h2><%= PageResources.PageFooter_ConnectWithUs %></h2></li>
                 <li class="contact"><a href='<% $Code: MonoSoftware.MonoX.Utilities.LocalizationUtility.RewriteLink("~/MonoX/Pages/Contact.aspx") %>' runat="server">Contact</a></li>
+                <li class="facebook"><a href="https://www.facebook.com/TrafilmProject" target="Trafilm_Facebook">Facebook</a></li>
+                <li class="twitter"><a href="https://twitter.com/TrafilmProject" target="Trafilm_Twitter">Twitter</a></li>
                 <%--
-                <li class="facebook"><a href="https://www.facebook.com/trafilm">Facebook</a></li>
-                <li class="twitter"><a href="https://twitter.com/trafilm">Twitter</a></li>
-		            <li class="slideshare"><a href="http://www.slideshare.net/trafilm">SlideShare</a></li>
+		            <li class="slideshare"><a href="http://www.slideshare.net/trafilm" target="Trafilm_SlideShare">SlideShare</a></li>
                 --%>
             </ul>
         </div>

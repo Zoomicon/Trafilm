@@ -151,10 +151,12 @@ IMG {
 }
 
 /*!!!*/
-.html-editor {
+.html-editor
+{
 
 }
-.html-editor p{
+.html-editor p
+{
     /*margin:0 !important;
     padding:20px !important;
     background-color: #a6c0c7 !important;
@@ -165,7 +167,8 @@ IMG {
     font-size: 14px;
     padding: 0 0 10px 0;
 }
-.html-editor .faq p{
+.html-editor .faq p
+{
    
 }
 /*/!!!*/
@@ -209,12 +212,12 @@ blockquote cite a:visited
 hr
 {
 	border: none 0px;
-    border-bottom: solid 1px #dcdcdc;
+  border-bottom: solid 1px #dcdcdc;
 	clear: both;
 	/*!!!margin: 20px 0px;*/
-    /*!!!*/
-    margin: 40px 0 0 0 !important;
-    /*/!!!*/
+  /*!!!*/
+  margin: 40px 0 0 0 !important;
+  /*/!!!*/
 	height: 0;
 }
 a, a:visited
@@ -7758,6 +7761,22 @@ h2.comment-title {
 /**** Poll - END ****/
 
 /**** RSS Feed - START ****/
+.rss-scroll > div
+{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 500px;
+}
+.rss-scroll .web-part-container
+{
+  overflow: visible;
+}
+.rss-scroll .web-part-container .web-part-body
+{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 500px;
+}
 .rss-item
 {
 	text-shadow: 1px 1px #fff;
@@ -7766,6 +7785,7 @@ h2.comment-title {
 {
 	text-decoration: none;
 	font-weight: bold;
+  margin-top: 10px;
 }
 .rss-item .read-more .arrow
 {
@@ -11241,6 +11261,10 @@ h3.discussion-post-author {
     opacity: 1.0;
 }
 
+.scroll-y
+{
+  overflow-y: scroll;
+}
 
 /*CUSTOM SCROLLBAR
 ::-webkit-scrollbar{
