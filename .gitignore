@@ -3,9 +3,9 @@
 
 # MonoX
 
-/Upload/Tmp/
-/Upload/user/
-/MonoX/ApplicationData/
+Upload/Tmp/
+Upload/user/
+MonoX/ApplicationData/
 web.config
 
 # LocalHistory extension for VisualStudio
