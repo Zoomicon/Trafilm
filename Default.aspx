@@ -41,7 +41,8 @@
     </div>
     
     <%-- SECTION --%>    
-    
+
+<!--    
     <div class="container">
       <div class="row-fluid">
         
@@ -75,6 +76,7 @@
 
       </div>
     </div>
+-->
     
     <%-- SECTION --%>    
 
